@@ -78,7 +78,7 @@ body{
     align-items: center;
 }
 .action-bar{
-    
+    width: 1140px;
     height: 328px;
     display: flex;
     justify-content: space-between;
@@ -117,16 +117,60 @@ body{
     height: 328px;
     border-radius: 48px;
 }
+/* section .users-section{
+    margin: 0 auto;
+} */
 .users-section{
-    width: 1140px;
+    width: 100vw;
     height: 328px;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    /* margin: 0 auto; */
+
+}
+.productive-users-section{
+    background-color: #dcdcdfdd;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 1140px;
+    height: 328px;
+    padding: 58px 142px;
+    border-radius: 24px;
+    gap: 60px;
+}
+.users-total{
+    width: 856px;
+    height: 206px;
 }
 .users-title{
-
+    font-size: 38px;
+    font-weight: bold;
+    text-align: center;
+    color: #252432;
+    margin-bottom: 25px;
+}
+.analytics-box{
+    font-family: inter;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 158px;
 }
 .analytics{
+    display: flex;
+    flex-direction: column;
 
+}
+.analytics .data-1{
+    font-size: 80px;
+    font-weight: bold;
+    color: #4E47FF;
+}
+.analytics .data-2{
+    font-size: 20px;
+    color: #534d4d;
 }
