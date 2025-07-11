@@ -33,7 +33,9 @@ body{
     margin: 0px 150px;
     padding-top: 50px ;
 }
-
+.header-main a{
+    text-decoration: none;
+}
 .logo {
     color: #4E47FF;
     font-size: 34px;
@@ -199,7 +201,11 @@ body{
     padding: 20px;
     gap: 24px;
     border-radius: 15px;
-    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    transition: transform 0.3s ease;
+}
+.testimonial-details:hover{
+    transform: scale(1.07);
 }
 .all-testimonial{
     width: 1150px;
@@ -279,7 +285,9 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin-top: 80px;
 }
+
 .form-sec-deep{
     width: 1140px;
     height: 632px;
@@ -344,3 +352,64 @@ input[type="text"] {
     border: none;
     border-radius: 10px;
 }
+Footer{
+    width: 100vw;
+    height: 300px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-main{
+    width: 600px;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+.logo-Subheading h2{
+    font-size: 80px;
+    color: #4E47FF;
+    text-align: center;
+
+}
+.logo-Subheading p{
+    font-size: 18px;
+    color: #8987A1;
+    text-align: center;
+}
+.logo-Subheading a{
+    text-decoration: none;
+}
+.footer-navigation-list ul{
+    list-style: none;
+    color: #615d5d;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    align-items: center;
+}
+.footer-navigation-list ul a{
+    text-decoration: none;
+    color: #615d5d;
+}
+.btn-grad {background-image: linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%)}
+
+.btn-grad {
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+   cursor: pointer;
+}         
+
+.btn-grad:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+ }
